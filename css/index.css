@@ -28,41 +28,41 @@ a, a:hover {
 	text-decoration:none;
 }
 /*navbar*/
-.navbar {
+#bootstrap-override .navbar {
 	position: absolute;
 	top: 0px;
 	padding-top: 8px;
 	z-index: 1000;
 }
-.navbar-brand {
+#bootstrap-override .navbar-brand {
 	padding: 0px;
 }
-.navbar-collapse {
-	text-align: left;
+#bootstrap-override .navbar-collapse {
+	text-align: right;
 }
-.nav {
+#bootstrap-override .nav {
 	margin-top: 33px;
 }
-.navbar a {
+#bootstrap-override .navbar a {
 	color:#fff;
 	font-size: 18px;
 	padding-right: 15px; 
 	padding-left: 15px; 
 }
-.nav a:first-child {
+#bootstrap-override .nav a:first-child {
 	padding-left: 0;
 }
-.nav a:last-child {
+#bootstrap-override .nav a:last-child {
 	padding-right: 0;
 }
 .card {
 	margin-top: 18px; 
 }
-.card a {
+#bootstrap-override .card a {
 	font-size: 24px;
 	font-weight: bold;
 }
-.navbar .link-card {
+#bootstrap-override .navbar .link-card {
 	padding-right: 0px;
 }
 /*slider*/
@@ -79,29 +79,30 @@ a, a:hover {
 	position: absolute;
 	top: 0px;
 }
-.carousel-caption {
+#bootstrap-override .carousel-caption {
 	top: 0px;
 	margin-top: 314px;
 	color: #fff;
 }
-.carousel-caption h1 {
+#bootstrap-override .carousel-caption h1 {
 	font-size: 60px;
   font-family: "OpenSans-Bold";
 }
-.carousel-caption h2 {
+#bootstrap-override .carousel-caption h2 {
 	text-transform: uppercase;
 	margin-top: 0px;
 }
-.carousel-caption .btn:hover {
+#bootstrap-override .carousel-caption .btn:hover {
 	background-color: #fff;
 	color: #333;
 }
-.carousel-caption .btn {
+#bootstrap-override .carousel-caption .btn {
 	color: #fff;
 	text-transform: uppercase;
 	border: 2px solid #fff;
   border-radius: 3px;
-	margin-top: 114px
+	margin-top: 114px;
+	font-size: 18px;
 }
 /*content*/
 .trending {

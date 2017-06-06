@@ -149,10 +149,10 @@
 
       <div class="block-comment">
         <div class="row">
-          <div class="col-xs-3 col-md-2 vcenter">
+          <div class="col-xs-5 col-md-2 vcenter">
             <div class="user-img"></div>
           </div>
-          <div class="col-xs-8 col-md-4 vcenter">
+          <div class="col-xs-6 col-md-4 vcenter">
             <div class="user-comment">
               Очень хороший топор. Брал в подарок для тещи. Пришел действител в деревянном футляре но без бархата =)
             </div>

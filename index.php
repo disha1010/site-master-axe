@@ -9,7 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+<body id="bootstrap-override">
   <div class="navbar-wrapper">
     <div class="container">
       <nav class="navbar">
@@ -24,11 +24,11 @@
           </div>
           <div class="navbar-collapse collapse" id="myNavbar">
             <div class="nav navbar-nav navbar-right">
-              <a class="link-gallery active" href="#">Галерея</a>
-              <a class="link-shop" href="#">Магазин</a>
-              <a class="link-brands" href="#">Бренды</a>
-              <a class="link-about" href="#">О магазине</a>
-              <a class="link-contacts" href="#">Контакты</a>
+              <a class="nav-item link-gallery active" href="#">Галерея</a>
+              <a class="nav-item link-shop" href="#">Магазин</a>
+              <a class="nav-item link-brands" href="#">Бренды</a>
+              <a class="nav-item link-about" href="#">О магазине</a>
+              <a class="nav-item link-contacts" href="#">Контакты</a>
             </div>
           </div>
           <div class="card text-right hidden-xs">

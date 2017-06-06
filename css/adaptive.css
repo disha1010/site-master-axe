@@ -2,7 +2,25 @@
   background: #fff;
 }
 @media screen and (max-width: 768px) {
-  .navbar {
+  #bootstrap-override .nav {
+    margin-top: 15px;
+  }
+  #bootstrap-override .navbar {
     width: 100%;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  #bootstrap-override .navbar a {
+    display: block;
+    margin: 15px;
+  }
+  #bootstrap-override .navbar a:first-child {
+    padding-left: 15px;
+  }
+  #bootstrap-override .navbar a:last-child {
+    padding-right: 15px;
+  }
+  #bootstrap-override .navbar-collapse {
+    box-shadow: none;
   }
 }
